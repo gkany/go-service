@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="08aebe86-c49d-4b00-af6c-210e84b2781f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cache/cache.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/init.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/utils.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/types.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/waitgroup.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/make.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/cron.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/BurntSushi/toml/COMPATIBLE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/BurntSushi/toml/COPYING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/BurntSushi/toml/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/BurntSushi/toml/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/BurntSushi/toml/decode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/BurntSushi/toml/decode_meta.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/BurntSushi/toml/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/BurntSushi/toml/encode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/BurntSushi/toml/encoding_types.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/BurntSushi/toml/encoding_types_1.1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/BurntSushi/toml/lex.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/BurntSushi/toml/parse.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/BurntSushi/toml/session.vim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/BurntSushi/toml/type_check.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/BurntSushi/toml/type_fields.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/configor/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/configor/configor.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/configor/unmarshal_json_1_10.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/configor/unmarshal_json_1_9.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/configor/utils.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/configor/wercker.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/judwhite/go-svc/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/judwhite/go-svc/svc/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/judwhite/go-svc/svc/svc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/judwhite/go-svc/svc/svc_other.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/judwhite/go-svc/svc/svc_windows.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/liyue201/go-logger/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/liyue201/go-logger/logger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/liyue201/golib/cron/cron.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/asm.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/asm_windows_386.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/asm_windows_amd64.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/dll_windows.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/env_unset.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/env_windows.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/eventlog.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/exec_windows.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/race.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/race0.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/registry/export_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/registry/key.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/registry/registry_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/registry/syscall.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/registry/value.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/registry/zsyscall_windows.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/security_windows.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/str.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/debug/log.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/debug/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/event.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/eventlog/install.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/eventlog/log.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/eventlog/log_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/example/beep.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/example/install.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/example/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/example/manage.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/example/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/go12.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/go12.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/go13.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/mgr/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/mgr/mgr.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/mgr/mgr_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/mgr/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/security.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/svc_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/sys_386.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/svc/sys_amd64.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/syscall.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/syscall_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/syscall_windows.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/syscall_windows_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/zsyscall_windows.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/ztypes_windows.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/ztypes_windows_386.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/golang.org/x/sys/windows/ztypes_windows_amd64.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/LICENSE.libyaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/NOTICE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/apic.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/decode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/emitterc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/encode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/parserc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/readerc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/resolve.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/scannerc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/sorter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/writerc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/yaml.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/yamlh.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/yamlprivateh.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vendor.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/utils.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="e#16#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cache/cache.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#15#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cache/init.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#15#147#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/config.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-254">
+              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+              <folding>
+                <element signature="e#14#228#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/cron.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#17#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/vendor.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/logs/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/make.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1180">
+              <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>PushSignAction</find>
+      <find>calcOrderAmount</find>
+      <find>getPairAccount</find>
+      <find>PriceLevel</find>
+      <find>accountsAsset</find>
+    </findStrings>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/common/net/request.go" />
+        <option value="$PROJECT_DIR$/work/trade_test.go" />
+        <option value="$PROJECT_DIR$/common/Set.go" />
+        <option value="$PROJECT_DIR$/common/wrapper/account.go" />
+        <option value="$PROJECT_DIR$/common/wrapper/transfer.go" />
+        <option value="$PROJECT_DIR$/common/wrapper/memo.go" />
+        <option value="$PROJECT_DIR$/common/wrapper/api.go" />
+        <option value="$PROJECT_DIR$/work/wrapper/transfer.go" />
+        <option value="$PROJECT_DIR$/work/wrapper/memo.go" />
+        <option value="$PROJECT_DIR$/work/wrapper/account.go" />
+        <option value="$PROJECT_DIR$/work/wrapper/api.go" />
+        <option value="$PROJECT_DIR$/work/jdex.go" />
+        <option value="$PROJECT_DIR$/output/config_prod.json" />
+        <option value="$PROJECT_DIR$/models/asset_book.go" />
+        <option value="$PROJECT_DIR$/models/amount_level.go" />
+        <option value="$PROJECT_DIR$/work/newdex.go" />
+        <option value="$PROJECT_DIR$/work/trade.go" />
+        <option value="$PROJECT_DIR$/work/cache.go" />
+        <option value="$PROJECT_DIR$/work/api.go" />
+        <option value="$PROJECT_DIR$/models/types.go" />
+        <option value="$PROJECT_DIR$/common/log/init.go" />
+        <option value="$PROJECT_DIR$/common/config/config.go" />
+        <option value="$PROJECT_DIR$/models/config.go" />
+        <option value="$PROJECT_DIR$/models/waitgroup.go" />
+        <option value="$PROJECT_DIR$/common/utils.go" />
+        <option value="$PROJECT_DIR$/cache/cron.go" />
+        <option value="$PROJECT_DIR$/cache/cache.go" />
+        <option value="$PROJECT_DIR$/cache/init.go" />
+        <option value="$PROJECT_DIR$/cmd/main.go" />
+        <option value="$PROJECT_DIR$/output/config.json" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/output/make.sh" />
+        <option value="$PROJECT_DIR$/vendor/vendor.json" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="402" />
+    <option name="y" value="149" />
+    <option name="width" value="2560" />
+    <option name="height" value="1337" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="go-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-service" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-service" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/service" />
+      <recent name="$PROJECT_DIR$/models" />
+      <recent name="$PROJECT_DIR$/cache" />
+      <recent name="$PROJECT_DIR$/output" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="auto-trade" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i output/config.json" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/cmd/main.go" />
+      <package value="nft-exchange" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="auto-trade" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <parameters value="-C  output/config.json" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="auto-trade" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go-service" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="auto-trade" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <parameters value="-C output/config.json" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="go-service" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go-service" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="402" y="149" width="2560" height="1337" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1234127" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960318" visible="true" weight="0.2399679" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39967898" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50039685" side_tool="true" weight="0.32263243" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/work/engine.go" />
+    <entry file="file://$PROJECT_DIR$/../gods/sets/treeset/enumerable.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="74" column="12" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/Set.go" />
+    <entry file="file://$PROJECT_DIR$/../gods/sets/treeset/treeset.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="99" column="27" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/robfig/cron/cron.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="94" column="53" selection-start-line="94" selection-start-column="48" selection-end-line="94" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/wrapper/transfer.go" />
+    <entry file="file://$PROJECT_DIR$/work/wrapper/memo.go" />
+    <entry file="file://$PROJECT_DIR$/work/wrapper/account.go" />
+    <entry file="file://$PROJECT_DIR$/output/config_prod.json" />
+    <entry file="file://$PROJECT_DIR$/work/trade_test.go" />
+    <entry file="file://$PROJECT_DIR$/work/jdex.go" />
+    <entry file="file://$PROJECT_DIR$/make.sh" />
+    <entry file="file://$PROJECT_DIR$/work/cache.go" />
+    <entry file="file://$PROJECT_DIR$/work/trade.go" />
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/eoscanada/eos-go/types.go" />
+    <entry file="file://$PROJECT_DIR$/work/api.go" />
+    <entry file="file://$PROJECT_DIR$/work/newdex.go" />
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/eoscanada/eos-go/api.go" />
+    <entry file="file://$PROJECT_DIR$/models/amount_level.go" />
+    <entry file="file://$PROJECT_DIR$/models/asset_book.go" />
+    <entry file="file://$PROJECT_DIR$/config/config.go" />
+    <entry file="file://$PROJECT_DIR$/common/config/config.go" />
+    <entry file="file://$PROJECT_DIR$/common/net/request.go" />
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/liyue201/golib/cron/cron.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/types.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/waitgroup.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#16#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/config.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-254">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <folding>
+            <element signature="e#14#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/make.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1180">
+          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/cron.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#17#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/logs/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/vendor.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/utils.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#16#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/init.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#15#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/cache.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#15#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

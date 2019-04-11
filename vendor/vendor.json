@@ -1,0 +1,43 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "Pc2ORQp+VY3Un/dkh4QwLC7R6lE=",
+			"path": "github.com/BurntSushi/toml",
+			"revision": "3012a1dbe2e4bd1391d42b32f0577cb7bbc7f005",
+			"revisionTime": "2018-08-15T10:47:33Z"
+		},
+		{
+			"checksumSHA1": "GAO2Smbo/BR3lLI9EdB6udjaeME=",
+			"path": "github.com/jinzhu/configor",
+			"revision": "4edaf76fe18865e36de734d887f4c01bd05707af",
+			"revisionTime": "2018-06-14T02:44:15Z"
+		},
+		{
+			"checksumSHA1": "cLTi1bUDLyeFi+Svm/da4Hx0Mlg=",
+			"path": "github.com/judwhite/go-svc/svc",
+			"revision": "d83e900e4a688aad49f41263bebf8793f0bf6add",
+			"revisionTime": "2019-01-21T16:30:39Z"
+		},
+		{
+			"checksumSHA1": "Mxniwe2ZvAXEYw/ehE35+mqnhtw=",
+			"path": "github.com/liyue201/go-logger",
+			"revision": "04a8e8816968e9d978334d9534f2e791cee8b93c",
+			"revisionTime": "2018-05-15T08:01:05Z"
+		},
+		{
+			"checksumSHA1": "rwigAJsBgY1xEXscQDnpvpY2wnU=",
+			"path": "github.com/liyue201/golib/cron",
+			"revision": "e9eca7e675c69c54890e9bf9b4043dbb214248b8",
+			"revisionTime": "2018-06-01T09:05:52Z"
+		},
+		{
+			"checksumSHA1": "QqDq2x8XOU7IoOR98Cx1eiV5QY8=",
+			"path": "gopkg.in/yaml.v2",
+			"revision": "51d6538a90f86fe93ac480b35f37b2be17fef232",
+			"revisionTime": "2018-11-15T11:05:04Z"
+		}
+	],
+	"rootPath": "go-service"
+}

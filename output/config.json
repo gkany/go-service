@@ -1,0 +1,28 @@
+{
+  "log": {
+    "path": "./logs",
+    "file": "go-service",
+    "level": 0,
+    "output_console": true,
+    "output_file": true
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
